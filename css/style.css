@@ -1,0 +1,93 @@
+:root {
+    --a-hover-color: #2196F3;
+    --text-color: #757575;
+    --white-text: #FFF;
+}
+body {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*
+section {}
+*/
+section.under-header {
+    text-align: center;
+}
+section.under-header, footer {
+    background-color: #2F303A;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text);
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+h3 {
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+h2, h3 {
+    color: #212121;
+    font-weight: 700;
+}
+h3, p {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+p {
+    line-height: 1.7;
+}
+a {
+    color: #212121;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: var(--a-hover-color);
+}
+a.logo {
+    font: 700 26px 1.2 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+}
+header a.logo {color: #000;}
+footer a.logo {color: #FFF;}
+a.logo:hover, a.logo:focus {color: inherit;}
+a.logo span {color: var(--a-hover-color)}
+button {
+    background-color: var(--a-hover-color);
+    color: var(--white-text);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+}
+button:hover, button:focus {
+    background-color: #188CE8;
+}
+ul>li {
+    list-style: none;
+    display: inline-block;
+}
+/*
+ul.contact-header li {}
+*/
+ul.contact-footer li {
+    display: inherit;
+}
+ul.contact-footer li a {
+    color: rgba(255, 255, 255, 0.6);
+}
+ul.contact-footer li:first-child a {
+    color: var(--white-text);
+}
+/*
+ul.we-do>li {}
+ul.cards>li {}
+*/
