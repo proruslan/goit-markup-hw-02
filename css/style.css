@@ -11,10 +11,10 @@ body {
 /*
 section {}
 */
-section.under-header {
+section.hero {
     text-align: center;
 }
-section.under-header, footer {
+section.hero, footer {
     background-color: #2F303A;
 }
 h1 {
@@ -59,8 +59,7 @@ a.logo {
 }
 header a.logo {color: #000;}
 footer a.logo {color: #FFF;}
-a.logo:hover, a.logo:focus {color: inherit;}
-a.logo span {color: var(--a-hover-color)}
+a.logo span {color: var(--a-hover-color);}
 button {
     background-color: var(--a-hover-color);
     color: var(--white-text);
@@ -71,16 +70,13 @@ button {
 button:hover, button:focus {
     background-color: #188CE8;
 }
-ul>li {
+ul > li {
     list-style: none;
-    display: inline-block;
 }
 /*
 ul.contact-header li {}
 */
-ul.contact-footer li {
-    display: inherit;
-}
+ul.contact-footer li {display: inherit;}
 ul.contact-footer li a {
     color: rgba(255, 255, 255, 0.6);
 }
