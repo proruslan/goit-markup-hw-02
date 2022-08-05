@@ -1,10 +1,9 @@
 :root {
     --a-hover-color: #2196F3;
-    --text-color: #757575;
-    --white-text: #FFF;
+    --light-text: #FFF;
 }
 body {
-    color: var(--text-color);
+    color: #757575;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -23,7 +22,7 @@ h1 {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--white-text);
+    color: var(--light-text);
 }
 h2 {
     font-size: 36px;
@@ -62,7 +61,7 @@ footer a.logo {color: #FFF;}
 a.logo span {color: var(--a-hover-color);}
 button {
     background-color: var(--a-hover-color);
-    color: var(--white-text);
+    color: var(--light-text);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     text-align: center;
@@ -81,9 +80,18 @@ ul.contact-footer li a {
     color: rgba(255, 255, 255, 0.6);
 }
 ul.contact-footer li:first-child a {
-    color: var(--white-text);
+    color: var(--light-text);
 }
 /*
 ul.we-do>li {}
 ul.cards>li {}
 */
+
+ul.filters a {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+ul.filters a:hover, ul.filters a:focus, ul.filters a:active {
+    color: var(--light-text);
+    background-color: var(--a-hover-color);
+}
