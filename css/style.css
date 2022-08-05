@@ -53,7 +53,8 @@ a:hover, a:focus {
     color: var(--a-hover-color);
 }
 a.logo {
-    font: 700 26px 1.2 'Raleway', sans-serif;
+    font: 700 26px 'Raleway', sans-serif;
+    line-height:  1.2;
     letter-spacing: 0.03em;
 }
 header a.logo {color: #000;}
@@ -95,3 +96,5 @@ ul.filters a:hover, ul.filters a:focus, ul.filters a:active {
     color: var(--light-text);
     background-color: var(--a-hover-color);
 }
+.projects > li {border: 1px solid #EEE;}
+.projects h3 {text-transform: none;}
