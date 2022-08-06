@@ -60,6 +60,7 @@ a.logo {
 header a.logo {color: #000;}
 footer a.logo {color: #FFF;}
 a.logo span {color: var(--a-hover-color);}
+button:hover, button:focus {cursor: pointer;}
 button.primary-btn {
     background-color: var(--a-hover-color);
     color: var(--light-text);
@@ -69,7 +70,6 @@ button.primary-btn {
 }
 button.primary-btn:hover, button.primary-btn:focus {
     background-color: #188CE8;
-    cursor: pointer;
 }
 ul > li {
     list-style: none;
