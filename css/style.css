@@ -69,6 +69,7 @@ button {
 }
 button:hover, button:focus {
     background-color: #188CE8;
+    cursor: pointer;
 }
 ul > li {
     list-style: none;
