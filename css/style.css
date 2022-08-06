@@ -92,7 +92,7 @@ ul.filters a {
     background: #F5F4FA;
     border-radius: 4px;
 }
-ul.filters a:hover, ul.filters a:focus, ul.filters a:active {
+ul.filters button:active {
     color: var(--light-text);
     background-color: var(--a-hover-color);
 }
