@@ -93,7 +93,7 @@ ul.team > li {
     border-radius: 0px 0px 4px 4px;
 }
 
-ul.filters a {
+ul.filters button {
     background: #F5F4FA;
     border-radius: 4px;
 }
