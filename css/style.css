@@ -60,14 +60,14 @@ a.logo {
 header a.logo {color: #000;}
 footer a.logo {color: #FFF;}
 a.logo span {color: var(--a-hover-color);}
-button {
+button.primary-btn {
     background-color: var(--a-hover-color);
     color: var(--light-text);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     text-align: center;
 }
-button:hover, button:focus {
+button.primary-btn:hover, button.primary-btn:focus {
     background-color: #188CE8;
     cursor: pointer;
 }
