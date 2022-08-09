@@ -44,6 +44,7 @@ h3, p {
 p {
     line-height: 1.7;
 }
+
 a {
     color: #212121;
     font-weight: 500;
@@ -60,20 +61,25 @@ a.logo {
 header a.logo {color: #000;}
 footer a.logo {color: #FFF;}
 a.logo span {color: var(--a-hover-color);}
-button:hover, button:focus {cursor: pointer;}
-button.primary-btn {
+
+button {border-width: 0;}
+button:hover {cursor: pointer;}
+.hero button {
     background-color: var(--a-hover-color);
     color: var(--light-text);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     text-align: center;
 }
-button.primary-btn:hover, button.primary-btn:focus {
+.hero button:hover, .hero button:focus {
     background-color: #188CE8;
 }
-ul > li {
-    list-style: none;
+.filters button:hover, .filters button:focus {
+    background-color: var(--a-hover-color);
+    color: var(--light-text);
 }
+
+ul > li {list-style: none;}
 /*
 ul.contact-header li {}
 */
@@ -85,8 +91,8 @@ ul.contact-footer li:first-child a {
     color: var(--light-text);
 }
 /*
-ul.we-do>li {}
-ul.cards>li {}
+ul.we-do > li {}
+ul.cards > li {}
 */
 ul.team > li {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
