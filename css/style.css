@@ -6,21 +6,22 @@ body {
     color: #757575;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    letter-spacing: 0.03em;
 }
 /*
 section {}
 */
-section.hero {
-    text-align: center;
+.hero {text-align: center;}
+.hero h1, .hero button {
+    letter-spacing: 0.06em;
 }
-section.hero, footer {
+.hero, footer {
     background-color: #2F303A;
 }
 h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--light-text);
 }
@@ -31,7 +32,6 @@ h2 {
 }
 h3 {
     line-height: 1.14;
-    text-transform: uppercase;
 }
 h2, h3 {
     color: #212121;
@@ -53,28 +53,35 @@ a {
 a:hover, a:focus {
     color: var(--a-hover-color);
 }
+header a {letter-spacing: 0.02em;}
 a.logo {
     font: 700 26px 'Raleway', sans-serif;
     line-height:  1.2;
-    letter-spacing: 0.03em;
+    letter-spacing: inherit;
 }
 header a.logo {color: #000;}
 footer a.logo {color: #FFF;}
 a.logo span {color: var(--a-hover-color);}
-
-button {border-width: 0;}
+button {
+    border-width: 0;
+    font-size: 16px;
+    border-radius: 4px;
+}
 button:hover {cursor: pointer;}
 .hero button {
     background-color: var(--a-hover-color);
     color: var(--light-text);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    text-align: center;
+    font-weight: 700;
+    line-height: 2.38;
 }
 .hero button:hover, .hero button:focus {
     background-color: #188CE8;
 }
-.filters button:hover, .filters button:focus {
+.filters button {
+    background: #F5F4FA;
+}
+.filters button:active, .filters button:hover, .filters button:focus {
     background-color: var(--a-hover-color);
     color: var(--light-text);
 }
@@ -97,15 +104,20 @@ ul.cards > li {}
 ul.team > li {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
 }
-
-ul.filters button {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-ul.filters button:active {
-    color: var(--light-text);
-    background-color: var(--a-hover-color);
+ul.team h3 {font-weight: 500;}
+ul.team h3, ul.team p {
+    font-size: 16px;
+    line-height: 1.19;
 }
 ul.projects > li {border: 1px solid #EEE;}
-ul.projects h3 {text-transform: none;}
+ul.projects h3 {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+}
+ul.projects p {
+    font-size: 16px;
+    line-height: 2.38;
+}
